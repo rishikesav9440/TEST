@@ -52,7 +52,7 @@ def send_generation_request(image_path: str, output_path: str = "output.png", **
 
 if __name__ == "__main__":
     # Example with default parameters
-    send_generation_request("/workspace/EasyControl_Ghibli/test_imgs/03.png")
+    send_generation_request("test_imgs/03.png")
     
     # Example with custom parameters
     # send_generation_request(
